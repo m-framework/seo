@@ -1,0 +1,17 @@
+{
+  "title":"SEO-settings",
+  "name":"seo",
+  "description":"Managing SEO-tags on pages and links for sitemap.xml. Disabling some pages and redirects with 301 status.",
+  "icon":"<i class=\"fa fa-line-chart\"></i>",
+  "version":"1.0",
+  "date":"2018-02-25",
+  "author":"mrinmiro@gmail.com",
+  "compatible_cores":["1.0"],
+  "dashboard_menu":{
+    "":"<i class=\"fa fa-line-chart\"></i> *SEO-settings overview*",
+    "/add":"<i class=\"fa fa-plus\"></i> *Add new record*"
+  },
+  "tags":["SEO","sitemap","redirects","norobots","nofollow"],
+  "price":"0",
+  "":""
+}

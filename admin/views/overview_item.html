@@ -1,0 +1,37 @@
+<tr data-id="~id~" data-sequence="~sequence~">
+    <td width="10%">
+        <i class="move"></i>
+        <a href="~language_prefix~/~pagename~/seo/edit/~id~"
+           title="*Edit*"
+           class="edit"><i class="fa fa-pencil"></i></a>
+        <a href="~language_prefix~/~pagename~/seo/delete/~id~"
+           title="*Delete*"
+           onclick="return confirm('*Are you sure want to delete this record*?');"
+           class="delete"><i class="fa fa-trash-o"></i>
+        </a>
+        <a href="~language_prefix~/~pagename~/seo/duplicate/~id~"
+           title="*Duplicate this SEO record*"
+           class="btn-white"><i class="fa fa-clone"></i>
+        </a>
+    </td>
+    <td width="20%" class="text-left"><span class="overflow-hidden"><a
+            href="~language_prefix~~path~" target="_blank" title="*View this page*">~address~</a></span></td>
+    <td width="40%" class="text-left"><span class="overflow-hidden">~title~</span></td>
+    <td width="10%"></td>
+    <td width="10%"><input
+            type="checkbox"
+            value="1"
+            id="checkbox_sitemap_~id~"
+            data-edit="sitemap"
+            data-m-action="onchange_update"
+            data-m-model="modules\seo\models\seo"
+            ~sitemap_checked~><label class="checkbox small" for="checkbox_sitemap_~id~">Sitemap</label></td>
+    <td width="10%"><input
+            type="checkbox"
+            value="1"
+            id="checkbox_noindex_~id~"
+            data-edit="hide_in_sitemap"
+            data-m-action="onchange_update"
+            data-m-model="modules\seo\models\seo"
+            ~noindex_checked~><label class="checkbox small" for="checkbox_noindex_~id~">Noindex</label></td>
+</tr>

@@ -1,0 +1,3 @@
+form[name="seo_form"] .edit_row textarea[name] {
+    min-height: 160px;
+}
