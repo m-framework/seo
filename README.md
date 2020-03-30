@@ -1,0 +1,2 @@
+# seo
+modules: seo
